@@ -26,9 +26,9 @@ export default function Home() {
         </div>
       </div>
       <div className='bg-[#D9D9D9]/[0.25] py-12 px-6 flex w-full '>
-        <div className='flex-1'>
+        <div className='flex-1 mb-3'>
           <div className='font-bold	text-xl mb-2'>What do we have to offer!</div>
-          <div className='mb-3'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+          <div className='mb-6'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
           </div>
           <div className='flex flex-wrap gap-2'>
             <ServiceCard />
@@ -37,7 +37,7 @@ export default function Home() {
             <ServiceCard />
           </div>
         </div>
-        <div className='flex flex-1 font-medium	text-base justify-center'></div>
+        <div className=' flex-1 hidden md:flex font-medium	text-base justify-center'></div>
       </div>
       <div className='py-6'>
         <div className='flex items-center flex-col mb-8'>
